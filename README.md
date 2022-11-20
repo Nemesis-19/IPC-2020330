@@ -1,4 +1,4 @@
-# OS-IPC-2020330
+# IPC-2020330
 Made an IPC project to display the communication between process using different options: SIGNALS, FIFO, Message Passing Ques &amp; Unix Domain Sockets
 
 There are 3 code files in SIGNAL, SR, ST & main. main uses exec call to intiate SR and ST programs. SR generates a randum number and sends it to main using the SIGTERM 
